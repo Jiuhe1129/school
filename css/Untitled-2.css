@@ -1,0 +1,384 @@
+*{padding: 0; margin: 0;}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background: #00318b;
+}
+.top .top-bj{
+    margin: 0 auto;
+    width: 1216px;
+    height: 100px;
+}
+.top .top-bj .logo{
+    margin-right: 90px;
+    float: left;
+    margin-top: 18px;
+}
+.top .top-bj .logo img{
+    float: left;
+    margin-top: -18px;
+}
+.top .top-bj .logo p{
+    margin-top: 17px;
+    float: left;
+    font-size: 25px;
+    color: #fff;
+}
+.top .top-bj .nav{
+    float: left;
+}
+.top .top-bj .nav ul li{
+    text-align: center;
+    float: left;
+    line-height: 100px;
+    width: 100px;
+    list-style: none;
+}
+.top .top-bj .nav ul li:hover{
+    background: #fff;
+}
+.top .top-bj .nav ul li:hover a{
+    color: #00318b;
+}
+.top .top-bj .nav ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+.top .top-bj .tp{
+    margin-top: 15px;
+    float: right;
+}
+.top .top-bj .tp img{
+    width: 70px;
+    height: 70px;
+}
+.banner{
+    
+    width: 1349px;
+    height: 800px;
+}
+.list{
+    width: 1920px;
+    height: 800px;
+    list-style: none;
+    position: relative;
+    padding-left: 0px;
+    cursor: pointer;
+}
+.list img{
+    width: 1903px;
+    height: 800px;
+}
+.itme{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 50px;
+    opacity: 0;
+    transition: all .8s;
+}
+.btu{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 440px;
+    z-index: 100;
+}
+#gopre{
+    left: 0px;
+}
+#goNext{
+    right: 0px;
+}
+.itme.active{
+    z-index: 10;
+    opacity: 1;
+}
+.pointlist{
+    padding-left: 0px;
+    list-style: none;
+    position: absolute;
+    right: 810px;
+   margin-top: -54px;
+    z-index: 1000;
+}
+.point{
+    width: 10px;
+    height: 10px;
+    background: rgb(156, 154, 154);
+    border-radius: 100px;
+    float: left;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+.point.active{
+    background-color: #be0113;
+}
+.point:hover{
+    transition: 1s;
+    background-color: #5f1119;
+}
+.main{
+    margin: 0 auto;
+    width: 1349px;
+    height: 802px;
+}
+.main .main-lm{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1214px;
+    height: 802px;
+}
+.main .main-lm .logo{
+    float: left;
+    margin-top: 67px;
+}
+.main .main-lm .logo img{
+    float: left;
+}
+.main .main-lm .logo p{
+    float: left;
+    font-size: 44px;
+    margin-top: 21px;
+}
+.main .main-lm .k{
+    float: left;
+    width: 1214px;
+    height: 564px;
+}
+.main .main-lm .k .diyi{
+    margin-right: 20px;
+    float: left;
+    width: 523px;
+    height: 564px;
+    background: #00318b;
+}
+.main .main-lm .k .diyi .zi{
+    line-height: 60px;
+    width: 317px;
+    height: 296px;
+    margin-left: 52px;
+    margin-top: 54px;
+}
+.main .main-lm .k .diyi .zi p{
+    color: #fff;
+    font-size: 30px;
+}
+.main .main-lm .k .dier{
+    color: #00318b;
+    margin-bottom: 18px;                                
+    float: left;
+    width: 671px;
+    height: 176px;
+    background: #dddddd;
+}
+.main .main-lm .k .dier span{
+    margin-top: 15px;
+    display: block;
+    margin-left: 47px;
+    font-size: 30px;
+}
+.main .main-lm .k .dier P{
+    margin-top: 20px;
+    margin-left: 85px;
+    font-size: 22px;
+}
+.main2{
+    margin: 0 auto;
+    width: 1349px;
+    height: 797px;
+}
+.main2 .main2-lm{
+    margin: 0 auto;
+    width: 1214px;
+    height: 797px;
+}
+.main2 .main2-lm .logo img{
+    float: left;
+}
+.main2 .main2-lm .logo p{
+    font-size: 44px;
+    margin-top: 25px;
+    float: left;
+}
+.main2 .main2-lm .tp{
+    margin-top: 50px;
+    float: left;
+    width: 1214px;
+    height: 564px;
+}
+.main2 .main2-lm .tp .zp{
+    margin-bottom: 40px;
+    text-align: center;
+    margin-left: 58px;
+    float: left;
+}
+.main2 .main2-lm .tp .zp .k{
+    overflow: hidden;
+    width: 286px;
+    height: 185px;
+    background: #00318b;
+    text-align: center;
+    margin-top: 8px;
+}
+.main2 .main2-lm .tp .zp dd{
+    margin-bottom: 10px;
+    margin-top: 18px;
+    font-size: 21px;
+    color: #000;
+}
+.main3{
+    margin: 0 auto;
+    width: 1349px;
+    height: 802px;
+}
+.main3-a{
+    margin: 0 auto;
+    width: 1249px;
+    height: 800px;
+}
+.main3 .main3-a .fl{
+   width: 433px;
+   height: 433px;
+}
+.tp{
+    margin-top: 29px;
+    float: left;
+    margin-left: 25px;
+}
+.main3 .main3-a .fl{
+    padding-top: 200px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    margin-left: 25px;
+}
+.rm{
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+.rm a{
+    font-size: 44px;
+    color: #000;
+}
+.main3 .main3-a .ys{
+    width: 217px;
+    height: 217px;
+    background: #939393;
+}
+.main3 .main3-a .hb{
+    width: 217px;
+    height: 217px;
+    background: #00318b;
+    float: right;
+    margin-top: -217px;
+}
+.main3 .main3-a .gk{
+    width: 217px;
+    height: 217px;
+    background: #939393;
+    float: right;
+}
+.main3 .main3-a .xx{
+    width: 217px;
+    height: 217px;
+    background: #00318b;
+    float: left;
+    margin-top: -217px;
+}
+
+.main3 .main3-a .xysh{
+    float: right;
+    margin-top: -500px;
+}
+.main4{
+    margin: 0 auto;
+    width: 1349px;
+    height: 500px;
+}
+.main4-a{
+    margin: 0 auto;
+    width: 1249px;
+    height: 500px;
+}
+.main4 .main4-a .wz{
+    float: left;
+    font-size: 25px;
+    line-height: 45px;
+    margin-top: 30px;
+    margin-left: 108px;
+}
+.main5{
+    margin: 0 auto;
+    width: 1349px;
+    height: 500px;
+}
+.main5-a{
+    margin: 0 auto;
+    width: 1249px;
+    height: 500px;
+}
+.main5 .tp-a{
+    text-align: center;
+}
+.main5 .tp-a img{
+    text-align: center;
+    margin-top: 150px;
+}
+.main6{
+    margin: 0 auto;
+    width: 100%;
+    height: 220px;
+    background: #00318b;
+}
+.main6 .nav-l{
+    margin: 0 auto;
+    text-align: center;
+    width: 1203px;
+    height: 147px;
+}
+.main6 .nav-l ul .xl li{
+    border: none;
+}
+.main6 .nav-l ul li{
+    float: left;
+    width: 199px;
+    text-align: center;
+    border-right: 1px solid #fff;
+    list-style: none;
+}
+.main6 .nav-l ul li:hover{
+    transition: 2s;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background: #fff;
+}
+.main6 .nav-l ul li:hover a{
+    color: #00318b;
+}
+.main6 .nav-l ul li a{
+    font-size: 28px;
+    line-height: 147px;
+    color: #fff;
+}
+.footer{
+    width: 1920px;
+    height: 85px;
+    background: #000000;
+}
+.footer a{
+    line-height: 85px;
+    color: #fff;
+    font-size: 15px;
+    margin-right: -156px;
+    margin-left: 386px;
+}
